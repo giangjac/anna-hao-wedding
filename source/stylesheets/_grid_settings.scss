@@ -1,0 +1,15 @@
+// Grid settings
+
+$column: 67px !default;
+$gutter: 36px !default;
+$grid-columns: 12 !default;
+$max-width: 100% !global;
+
+$small-screen: 900px;
+
+// Breakpoints
+$mobile: new-breakpoint(max-width $small-screen 8); // > 900
+$desktop: new-breakpoint(min-width $small-screen + 1 12); // 900 >
+
+$visual-grid: false;
+$visual-grid-color: black;

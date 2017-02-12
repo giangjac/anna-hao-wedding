@@ -1,0 +1,148 @@
+body {
+  background: #FFFFFF;
+  text-align: center;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.menu {
+  ul {
+    float: right;
+    font-family: monospace;
+
+    @include margin(50px 3em 3em 0);
+    li {
+      @include display(inline-block);
+      @include padding(0 2em);
+    }
+  }
+  .logo {
+    @include position(relative);
+    z-index: 100;
+
+    img {
+      @include margin(2em 0 1em 2em);
+      @include size(250px auto);
+      float: left;
+
+      @include media($mobile) {
+      }
+    }
+  }
+
+  .wedding_date {
+    img {
+      @include size(175px auto);
+    }
+  }
+}
+
+.landing img {
+  @include span-columns(8);
+  @include shift(2);
+}
+
+.save_the_date {
+  z-index: 10;
+  position: relative;
+
+  img {
+    @include span-columns(4);
+    @include shift(4);
+    margin-top: -8em;
+  }
+}
+
+.banner {
+  @include span-columns(7);
+  @include shift(2.5);
+  @include margin(-8em 0 0 26.32451%);
+
+  .component_01 img {
+    @include display(inline-block);
+    @include span-columns(7);
+
+    @include media($mobile) {
+
+    }
+  }
+
+  .component_02 img {
+    @include display(inline-block);
+    @include span-columns(5);
+
+    @include media($mobile) {
+
+    }
+  }
+}
+
+.our_story {
+  @include span-columns(8);
+  @include shift(2);
+  font-family: monospace;
+  text-align: left;
+  margin-top: 2em;
+}
+
+h1 {
+  color: rgba(0,0,0,0.5);
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 4em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.doc {
+  margin: 3em 0;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+
+  a {
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 0.75em 0.7em;
+    color: white;
+    text-decoration: none;
+    transition: color 0.1s linear;
+    &:hover {
+      background: rgba(0,0,0,0.2);
+      color: white;
+      transition: all 0.15s linear;
+    }
+  }
+}
+
+.welcome {
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s;
+}
+
+@-webkit-keyframes welcome {
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+   -webkit-transform: scale(0);
+   opacity: 0;
+  }
+  82.5% {
+    -webkit-transform: scale(1.03);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+.content_wrapper {
+  @include span-columns(10);
+  @include shift(1);
+
+  .date {
+    text-align: center;
+  }
+}
