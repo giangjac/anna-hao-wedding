@@ -1,4 +1,5 @@
-$blue: #1565c0;
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700|Josefin+Sans:400');
+
 
 body {
   background: #FFFFFF;
@@ -39,7 +40,7 @@ body {
     }
 
     ul {
-      font-family: 'futura';
+      font-family: $heading-font-family;
       @include margin(6px);
 
       li {
@@ -48,12 +49,14 @@ body {
         vertical-align: middle;
         font-size: 0.9rem;
         padding-bottom: 2px;
+        width: 145px;
 
         a {
           color: #888;
 
           &:hover, &:active {
             color: $blue;
+            font-weight: bold;
           }
         }
       }
@@ -82,7 +85,7 @@ body {
     }
 
     .wedding_date {
-      font-family: 'futura';
+      font-family: $heading-font-family;
       float: right;
       font-size: 2rem;
       z-index: 10;
@@ -190,7 +193,7 @@ body {
     @include shift(3);
     border-top: 1px double #000;
     padding-top: 3em;
-    font-family: 'apercu';
+    font-family: $base-font-family;
     text-align: left;
     margin-top: 4em;
     margin-bottom: 3em;
@@ -297,7 +300,7 @@ body {
 
   .doc {
     margin: 3em 0;
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $heading-font-family, "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.1em;
     font-weight: 300;
 
