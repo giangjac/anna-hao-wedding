@@ -1,0 +1,1104 @@
+# Logfile created on 2017-02-12 16:00:16 -0500 by logger.rb/47272
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-12 16:00:16 -0500 cap production jacky:initial
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b412b428] Running [ -d ~/.rvm ] on 104.131.35.203
+ DEBUG [b412b428] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-12 16:00:31 -0500 cap production jacky:initial
+  INFO ---------------------------------------------------------------------------
+ DEBUG [5acf4a7c] Running [ -d ~/.rvm ] on 104.131.35.203
+ DEBUG [5acf4a7c] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-12 16:21:32 -0500 cap production jacky:initial
+  INFO ---------------------------------------------------------------------------
+ DEBUG [77551804] Running [ -d ~/.rvm ] on 104.131.35.203
+ DEBUG [77551804] Command: [ -d ~/.rvm ]
+ DEBUG [77551804] Finished in 0.749 seconds with exit status 0 (successful).
+ DEBUG [c5090f02] Running ~/.rvm/bin/rvm version on 104.131.35.203
+ DEBUG [c5090f02] Command: ~/.rvm/bin/rvm version
+ DEBUG [c5090f02] 	rvm 1.28.0 (latest) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [c5090f02] 	
+ DEBUG [c5090f02] Finished in 1.199 seconds with exit status 0 (successful).
+ DEBUG [a7a2ccfe] Running ~/.rvm/bin/rvm current on 104.131.35.203
+ DEBUG [a7a2ccfe] Command: ~/.rvm/bin/rvm current
+ DEBUG [a7a2ccfe] 	ruby-2.3.3
+ DEBUG [a7a2ccfe] 	
+ DEBUG [a7a2ccfe] Finished in 0.928 seconds with exit status 0 (successful).
+ DEBUG [d8c3926b] Running ~/.rvm/bin/rvm default do ruby --version on 104.131.35.203
+ DEBUG [d8c3926b] Command: ~/.rvm/bin/rvm default do ruby --version
+ DEBUG [d8c3926b] 	ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-linux]
+ DEBUG [d8c3926b] 	
+ DEBUG [d8c3926b] Finished in 0.615 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-12 16:21:51 -0500 cap production deploy:initial
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b1711edb] Running [ -d ~/.rvm ] on 104.131.35.203
+ DEBUG [b1711edb] Command: [ -d ~/.rvm ]
+ DEBUG [b1711edb] Finished in 0.646 seconds with exit status 0 (successful).
+ DEBUG [0399675b] Running ~/.rvm/bin/rvm version on 104.131.35.203
+ DEBUG [0399675b] Command: ~/.rvm/bin/rvm version
+ DEBUG [0399675b] 	rvm 1.28.0 (latest) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [0399675b] 	
+ DEBUG [0399675b] Finished in 1.206 seconds with exit status 0 (successful).
+ DEBUG [4bae7431] Running ~/.rvm/bin/rvm current on 104.131.35.203
+ DEBUG [4bae7431] Command: ~/.rvm/bin/rvm current
+ DEBUG [4bae7431] 	ruby-2.3.3
+ DEBUG [4bae7431] 	
+ DEBUG [4bae7431] Finished in 0.873 seconds with exit status 0 (successful).
+ DEBUG [0c95946a] Running ~/.rvm/bin/rvm default do ruby --version on 104.131.35.203
+ DEBUG [0c95946a] Command: ~/.rvm/bin/rvm default do ruby --version
+ DEBUG [0c95946a] 	ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-linux]
+ DEBUG [0c95946a] 	
+ DEBUG [0c95946a] Finished in 0.738 seconds with exit status 0 (successful).
+  INFO [ecca85bc] Running /usr/bin/env mkdir -p /tmp on 104.131.35.203
+ DEBUG [ecca85bc] Command: /usr/bin/env mkdir -p /tmp
+  INFO [ecca85bc] Finished in 0.083 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-annahaowedding-production-Jacky.sh 0.0%
+  INFO Uploading /tmp/git-ssh-annahaowedding-production-Jacky.sh 100.0%
+  INFO [c54c5f75] Running /usr/bin/env chmod 700 /tmp/git-ssh-annahaowedding-production-Jacky.sh on 104.131.35.203
+ DEBUG [c54c5f75] Command: /usr/bin/env chmod 700 /tmp/git-ssh-annahaowedding-production-Jacky.sh
+  INFO [c54c5f75] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [2b6d8a4a] Running /usr/bin/env git ls-remote git@github.com:giangjac/anna-hao-wedding.git HEAD on 104.131.35.203
+ DEBUG [2b6d8a4a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git ls-remote git@github.com:giangjac/anna-hao-wedding.git HEAD )
+ DEBUG [2b6d8a4a] 	94279e1c48070905364a5161465868790227068d
+ DEBUG [2b6d8a4a] 		
+ DEBUG [2b6d8a4a] 	HEAD
+  INFO [2b6d8a4a] Finished in 0.463 seconds with exit status 0 (successful).
+  INFO [a3d66460] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared /home/jacky/apps/annahaowedding/releases on 104.131.35.203
+ DEBUG [a3d66460] Command: /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared /home/jacky/apps/annahaowedding/releases
+  INFO [a3d66460] Finished in 0.112 seconds with exit status 0 (successful).
+  INFO [a561077f] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared/public/assets on 104.131.35.203
+ DEBUG [a561077f] Command: /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared/public/assets
+  INFO [a561077f] Finished in 0.091 seconds with exit status 0 (successful).
+ DEBUG [767ae5db] Running [ -f /home/jacky/apps/annahaowedding/shared/puma.rb ] on 104.131.35.203
+ DEBUG [767ae5db] Command: [ -f /home/jacky/apps/annahaowedding/shared/puma.rb ]
+ DEBUG [767ae5db] Finished in 0.079 seconds with exit status 1 (failed).
+  WARN puma.rb NOT FOUND!
+ DEBUG Uploading /home/jacky/apps/annahaowedding/shared/puma.rb 0.0%
+  INFO Uploading /home/jacky/apps/annahaowedding/shared/puma.rb 100.0%
+  INFO puma.rb generated
+ DEBUG [7ee22f4c] Running [ -f /home/jacky/apps/annahaowedding/current/REVISION ] on 104.131.35.203
+ DEBUG [7ee22f4c] Command: [ -f /home/jacky/apps/annahaowedding/current/REVISION ]
+ DEBUG [7ee22f4c] Finished in 0.080 seconds with exit status 1 (failed).
+ DEBUG [80bef68b] Running [ -f /home/jacky/apps/annahaowedding/repo/HEAD ] on 104.131.35.203
+ DEBUG [80bef68b] Command: [ -f /home/jacky/apps/annahaowedding/repo/HEAD ]
+ DEBUG [80bef68b] Finished in 0.079 seconds with exit status 1 (failed).
+ DEBUG [972561a6] Running if test ! -d /home/jacky/apps/annahaowedding; then echo "Directory does not exist '/home/jacky/apps/annahaowedding'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [972561a6] Command: if test ! -d /home/jacky/apps/annahaowedding; then echo "Directory does not exist '/home/jacky/apps/annahaowedding'" 1>&2; false; fi
+ DEBUG [972561a6] Finished in 0.086 seconds with exit status 0 (successful).
+  INFO [bd07852f] Running /usr/bin/env git clone --mirror git@github.com:giangjac/anna-hao-wedding.git /home/jacky/apps/annahaowedding/repo on 104.131.35.203
+ DEBUG [bd07852f] Command: cd /home/jacky/apps/annahaowedding && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git clone --mirror git@github.com:giangjac/anna-hao-wedding.git /home/jacky/apps/annahaowedding/repo )
+ DEBUG [bd07852f] 	Cloning into bare repository '/home/jacky/apps/annahaowedding/repo'...
+ DEBUG [bd07852f] 	
+ DEBUG [bd07852f] 	remote: Counting objects: 171, done.[K
+ DEBUG [bd07852f] 	
+ DEBUG [bd07852f] 	remote: Compressing objects:   0% (1/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:   1% (2/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:   2% (4/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objec
+ DEBUG [bd07852f] 	ts:   3% (5/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:   4% (7/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:   5% (8/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:   6% (10/154)
+ DEBUG [bd07852f] 	   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:   7% (11/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:   8% (13/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:   9% (14/154)   [K
+ DEBUG [bd07852f] 	remote: Compressin
+ DEBUG [bd07852f] 	g objects:  10% (16/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  11% (17/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  12% (19/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  13
+ DEBUG [bd07852f] 	% (21/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  14% (22/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  15% (24/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  16% (25/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  17% (27/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  18% (28/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  19% (30/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing ob
+ DEBUG [bd07852f] 	jects:  20% (31/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  21% (33/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  22% (34/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  23% (3
+ DEBUG [bd07852f] 	6/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  24% (37/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  25% (39/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  26% (41/154)   [K
+ DEBUG [bd07852f] 	remote: Comp
+ DEBUG [bd07852f] 	ressing objects:  27% (42/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  28% (44/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  29% (45/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing object
+ DEBUG [bd07852f] 	s:  30% (47/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  31% (48/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  32% (50/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  33% (51/15
+ DEBUG [bd07852f] 	4)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  34% (53/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  35% (54/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  36% (56/154)   [K
+ DEBUG [bd07852f] 	remote: Compress
+ DEBUG [bd07852f] 	ing objects:  37% (57/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  38% (59/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  39% (61/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  
+ DEBUG [bd07852f] 	40% (62/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  41% (64/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  42% (65/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  43% (67/154)  
+ DEBUG [bd07852f] 	 [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  44% (68/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  45% (70/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  46% (71/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing 
+ DEBUG [bd07852f] 	objects:  47% (73/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  48% (74/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  49% (76/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  50% 
+ DEBUG [bd07852f] 	(77/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  51% (79/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  52% (81/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  53% (82/154)   [K
+ DEBUG [bd07852f] 	remote: Co
+ DEBUG [bd07852f] 	mpressing objects:  54% (84/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  55% (85/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  56% (87/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing obje
+ DEBUG [bd07852f] 	cts:  57% (88/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  58% (90/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  59% (91/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  60% (93/
+ DEBUG [bd07852f] 	154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  61% (94/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  62% (96/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  63% (98/154)   [K
+ DEBUG [bd07852f] 	remote: Compre
+ DEBUG [bd07852f] 	ssing objects:  64% (99/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  65% (101/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  66% (102/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing object
+ DEBUG [bd07852f] 	s:  67% (104/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  68% (105/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  69% (107/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  70% (10
+ DEBUG [bd07852f] 	8/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  71% (110/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  72% (111/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  73% (113/154)   [K
+ DEBUG [bd07852f] 	remote: C
+ DEBUG [bd07852f] 	ompressing objects:  74% (114/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  75% (116/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  76% (118/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  77% (119/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  78% (121/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  79% (122/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  80% (124/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  81% (125/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  82% (127/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  83% (128/154)   [Kremote: Compressing objects:  84% (130/154)   [Kremote: Compressing objects:  85% (131/154)   [Kremote: Compressing
+ DEBUG [bd07852f] 	 objects:  86% (133/154)   [Kremote: Compressing objects:  87% (134/154)   [Kremote: Compressing objects:  88% (136/154)   [Kremote: Compressing objects:  89% (138/154)   [Kremote: Compressing objects:  90% (139/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  91% (141/154)   [Kremote: Compressing objects:  92% (142/154)   [Kremote: Compressing objects:  93% (144/154)   [Kremote: Compressing objects:  94% (145/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  95% (147/154)   [Kremote: Compressing objects:  96% (148/154)   [Kremote: Compressing objects:  97% (150/154)   [Kremote: Compressing objects:  98% (151/154)   [K
+ DEBUG [bd07852f] 	remote: Compressing objects:  99% (153/154)   [Kremote: Compressing objects: 100% (154/154)   [Kremote: Compressing objects: 100% (154/154), done.[K
+ DEBUG [bd07852f] 	Receiving objects:   0% (1/171)   
+ DEBUG [bd07852f] 	Receiving objects:   1% (2/171)   
+ DEBUG [bd07852f] 	Receiving objects:   2% (4/171)   
+ DEBUG [bd07852f] 	Receiving objects:   3% (6/171)   
+ DEBUG [bd07852f] 	Receiving objects:   4% (7/171)   
+ DEBUG [bd07852f] 	Receiving objects:   5% (9/171)   
+ DEBUG [bd07852f] 	Receiving objects:   6% (11/171)   
+ DEBUG [bd07852f] 	Receiving objects:   7% (12/171)   
+ DEBUG [bd07852f] 	Receiving objects:   8% (14/171)   
+ DEBUG [bd07852f] 	Receiving objects:   9% (16/171)   
+ DEBUG [bd07852f] 	Receiving objects:  10% (18/171)   
+ DEBUG [bd07852f] 	Receiving objects:  11% (19/171)   
+ DEBUG [bd07852f] 	Receiving objects:  12% (21/171)   
+ DEBUG [bd07852f] 	Receiving objects:  13% (23/171)   
+ DEBUG [bd07852f] 	Receiving objects:  14% (24/171)   
+ DEBUG [bd07852f] 	Receiving objects:  15% (26/171)   
+ DEBUG [bd07852f] 	Receiving objects:  16% (28/171)   
+ DEBUG [bd07852f] 	Receiving objects:  17% (30/171)   
+ DEBUG [bd07852f] 	Receiving objects:  18% (31/171)   
+ DEBUG [bd07852f] 	remote: Total 171 (delta 12), reused 167 (delta 11), pack-reused 0[K
+ DEBUG [bd07852f] 	
+ DEBUG [bd07852f] 	Receiving objects:  19% (33/171)   
+ DEBUG [bd07852f] 	Receiving objects:  20% (35/171)   
+ DEBUG [bd07852f] 	Receiving objects:  21% (36/171)   
+ DEBUG [bd07852f] 	Receiving objects:  22% (38/171)   
+ DEBUG [bd07852f] 	Receiving objects:  23% (40/171)   
+ DEBUG [bd07852f] 	Receiving objects:  24% (42/171)   
+ DEBUG [bd07852f] 	Receiving objects:  25% (43/171)   
+ DEBUG [bd07852f] 	Receiving objects:  26% (45/171)   
+ DEBUG [bd07852f] 	Receiving objects:  27% (47/171)   
+ DEBUG [bd07852f] 	Receiving objects:  28% (48/171)   
+ DEBUG [bd07852f] 	Receiving objects:  29% (50/171)   
+ DEBUG [bd07852f] 	Receiving objects:  30% (52/171)   
+ DEBUG [bd07852f] 	Receiving objects:  31% (54/171)   
+ DEBUG [bd07852f] 	Receiving objects:  32% (55/171)   
+ DEBUG [bd07852f] 	Receiving objects:  33% (57/171)   
+ DEBUG [bd07852f] 	Receiving objects:  34% (59/171)   
+ DEBUG [bd07852f] 	Receiving objects:  35% (60/171)   
+ DEBUG [bd07852f] 	Receiving objects:  36% (62/171)   
+ DEBUG [bd07852f] 	Receiving objects:  37% (64/171)   
+ DEBUG [bd07852f] 	Receiving objects:  38% (65/171)   
+ DEBUG [bd07852f] 	Receiving objects:  39% (67/171)   
+ DEBUG [bd07852f] 	Receiving objects:  40% (69/171)   
+ DEBUG [bd07852f] 	Receiving objects:  41% (71/171)   
+ DEBUG [bd07852f] 	Receiving objects:  42% (72/171)   
+ DEBUG [bd07852f] 	Receiving objects:  43% (74/171)   
+ DEBUG [bd07852f] 	Receiving objects:  44% (76/171)   
+ DEBUG [bd07852f] 	Receiving objects:  45% (77/171)   
+ DEBUG [bd07852f] 	Receiving objects:  46% (79/171)   
+ DEBUG [bd07852f] 	Receiving objects:  47% (81/171)   
+ DEBUG [bd07852f] 	Receiving objects:  48% (83/171)   
+ DEBUG [bd07852f] 	Receiving objects:  49% (84/171)   
+ DEBUG [bd07852f] 	Receiving objects:  50% (86/171)   
+ DEBUG [bd07852f] 	Receiving objects:  51% (88/171)   
+ DEBUG [bd07852f] 	Receiving objects:  52% (89/171)   
+ DEBUG [bd07852f] 	Receiving objects:  53% (91/171)   
+ DEBUG [bd07852f] 	Receiving objects:  54% (93/171)   
+ DEBUG [bd07852f] 	Receiving objects:  55% (95/171)   
+ DEBUG [bd07852f] 	Receiving objects:  56% (96/171)   
+ DEBUG [bd07852f] 	Receiving objects:  57% (98/171)   
+ DEBUG [bd07852f] 	Receiving objects:  58% (100/171)   
+ DEBUG [bd07852f] 	Receiving objects:  59% (101/171)   
+ DEBUG [bd07852f] 	Receiving objects:  60% (103/171)   
+ DEBUG [bd07852f] 	Receiving objects:  61% (105/171)   
+ DEBUG [bd07852f] 	Receiving objects:  62% (107/171)   
+ DEBUG [bd07852f] 	Receiving objects:  63% (108/171)   
+ DEBUG [bd07852f] 	Receiving objects:  64% (110/171)   
+ DEBUG [bd07852f] 	Receiving objects:  65% (112/171)   
+ DEBUG [bd07852f] 	Receiving objects:  66% (113/171)   
+ DEBUG [bd07852f] 	Receiving objects:  67% (115/171)   
+ DEBUG [bd07852f] 	Receiving objects:  68% (117/171)   
+ DEBUG [bd07852f] 	Receiving objects:  69% (118/171)   
+ DEBUG [bd07852f] 	Receiving objects:  70% (120/171)   
+ DEBUG [bd07852f] 	Receiving objects:  71% (122/171)   
+ DEBUG [bd07852f] 	Receiving objects:  72% (124/171)   
+ DEBUG [bd07852f] 	Receiving objects:  73% (125/171)   
+ DEBUG [bd07852f] 	Receiving objects:  74% (127/171)   
+ DEBUG [bd07852f] 	Receiving objects:  75% (129/171)   
+ DEBUG [bd07852f] 	Receiving objects:  76% (130/171)   
+ DEBUG [bd07852f] 	Receiving objects:  77% (132/171)   
+ DEBUG [bd07852f] 	Receiving objects:  78% (134/171)   
+ DEBUG [bd07852f] 	Receiving objects:  79% (136/171)   
+ DEBUG [bd07852f] 	Receiving objects:  80% (137/171)   
+ DEBUG [bd07852f] 	Receiving objects:  81% (139/171)   
+ DEBUG [bd07852f] 	Receiving objects:  82% (141/171)   
+ DEBUG [bd07852f] 	Receiving objects:  83% (142/171)   
+ DEBUG [bd07852f] 	Receiving objects:  84% (144/171)   
+ DEBUG [bd07852f] 	Receiving objects:  85% (146/171)   
+ DEBUG [bd07852f] 	Receiving objects:  86% (148/171)   
+ DEBUG [bd07852f] 	Receiving objects:  87% (149/171)   
+ DEBUG [bd07852f] 	Receiving objects:  88% (151/171)   
+ DEBUG [bd07852f] 	Receiving objects:  89% (153/171)   
+ DEBUG [bd07852f] 	Receiving objects:  90% (154/171)   
+ DEBUG [bd07852f] 	Receiving objects:  91% (156/171)   
+ DEBUG [bd07852f] 	Receiving objects:  92% (158/171)   
+ DEBUG [bd07852f] 	Receiving objects:  93% (160/171)   
+ DEBUG [bd07852f] 	Receiving objects:  94% (161/171)   
+ DEBUG [bd07852f] 	Receiving objects:  95% (163/171)   
+ DEBUG [bd07852f] 	Receiving objects:  96% (165/171)   
+ DEBUG [bd07852f] 	Receiving objects:  97% (166/171)   
+ DEBUG [bd07852f] 	Receiving objects:  98% (168/171)   
+ DEBUG [bd07852f] 	Receiving objects:  99% (170/171)   
+ DEBUG [bd07852f] 	Receiving objects: 100% (171/171)   
+ DEBUG [bd07852f] 	Receiving objects: 100% (171/171), 3.37 MiB | 0 bytes/s, done.
+ DEBUG [bd07852f] 	
+ DEBUG [bd07852f] 	Resolving deltas:   0% (0/12)   
+ DEBUG [bd07852f] 	Resolving deltas:  16% (2/12)   
+ DEBUG [bd07852f] 	Resolving deltas:  25% (3/12)   
+ DEBUG [bd07852f] 	Resolving deltas:  33% (4/12)   
+ DEBUG [bd07852f] 	Resolving deltas:  50% (6/12)   
+ DEBUG [bd07852f] 	Resolving deltas:  75% (9/12)   
+ DEBUG [bd07852f] 	Resolving deltas:  83% (10/12)   
+ DEBUG [bd07852f] 	Resolving deltas:  91% (11/12)   
+ DEBUG [bd07852f] 	Resolving deltas: 100% (12/12)   
+ DEBUG [bd07852f] 	Resolving deltas: 100% (12/12), done.
+ DEBUG [bd07852f] 	
+ DEBUG [bd07852f] 	Checking connectivity... 
+ DEBUG [bd07852f] 	done.
+ DEBUG [bd07852f] 	
+  INFO [bd07852f] Finished in 0.630 seconds with exit status 0 (successful).
+ DEBUG [67ed4326] Running if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [67ed4326] Command: if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi
+ DEBUG [67ed4326] Finished in 0.110 seconds with exit status 0 (successful).
+  INFO [087aebff] Running /usr/bin/env git remote set-url origin git@github.com:giangjac/anna-hao-wedding.git on 104.131.35.203
+ DEBUG [087aebff] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git remote set-url origin git@github.com:giangjac/anna-hao-wedding.git )
+  INFO [087aebff] Finished in 0.090 seconds with exit status 0 (successful).
+  INFO [e155376e] Running /usr/bin/env git remote update --prune on 104.131.35.203
+ DEBUG [e155376e] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [e155376e] 	Fetching origin
+ DEBUG [e155376e] 	
+  INFO [e155376e] Finished in 0.492 seconds with exit status 0 (successful).
+ DEBUG [3c5d5f5f] Running if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [3c5d5f5f] Command: if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi
+ DEBUG [3c5d5f5f] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [4c21beeb] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212212156 on 104.131.35.203
+ DEBUG [4c21beeb] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212212156 )
+  INFO [4c21beeb] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [48ed4e0d] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/jacky/apps/annahaowedding/releases/20170212212156 on 104.131.35.203
+ DEBUG [48ed4e0d] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/jacky/apps/annahaowedding/releases/20170212212156 )
+  INFO [48ed4e0d] Finished in 0.123 seconds with exit status 0 (successful).
+ DEBUG [81614705] Running if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [81614705] Command: if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi
+ DEBUG [81614705] Finished in 0.079 seconds with exit status 0 (successful).
+ DEBUG [7f3f55ff] Running /usr/bin/env git rev-list --max-count=1 master on 104.131.35.203
+ DEBUG [7f3f55ff] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [7f3f55ff] 	94279e1c48070905364a5161465868790227068d
+ DEBUG [7f3f55ff] 	
+ DEBUG [7f3f55ff] Finished in 0.085 seconds with exit status 0 (successful).
+ DEBUG [67ac7f21] Running if test ! -d /home/jacky/apps/annahaowedding/releases/20170212212156; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212212156'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [67ac7f21] Command: if test ! -d /home/jacky/apps/annahaowedding/releases/20170212212156; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212212156'" 1>&2; false; fi
+ DEBUG [67ac7f21] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [8a929a5a] Running /usr/bin/env echo "94279e1c48070905364a5161465868790227068d" >> REVISION on 104.131.35.203
+ DEBUG [8a929a5a] Command: cd /home/jacky/apps/annahaowedding/releases/20170212212156 && /usr/bin/env echo "94279e1c48070905364a5161465868790227068d" >> REVISION
+  INFO [8a929a5a] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [7b483a97] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212212156/public on 104.131.35.203
+ DEBUG [7b483a97] Command: /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212212156/public
+  INFO [7b483a97] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [0365058a] Running [ -L /home/jacky/apps/annahaowedding/releases/20170212212156/public/assets ] on 104.131.35.203
+ DEBUG [0365058a] Command: [ -L /home/jacky/apps/annahaowedding/releases/20170212212156/public/assets ]
+ DEBUG [0365058a] Finished in 0.082 seconds with exit status 1 (failed).
+ DEBUG [bd79e5bc] Running [ -d /home/jacky/apps/annahaowedding/releases/20170212212156/public/assets ] on 104.131.35.203
+ DEBUG [bd79e5bc] Command: [ -d /home/jacky/apps/annahaowedding/releases/20170212212156/public/assets ]
+ DEBUG [bd79e5bc] Finished in 0.083 seconds with exit status 1 (failed).
+  INFO [062160e8] Running /usr/bin/env ln -s /home/jacky/apps/annahaowedding/shared/public/assets /home/jacky/apps/annahaowedding/releases/20170212212156/public/assets on 104.131.35.203
+ DEBUG [062160e8] Command: /usr/bin/env ln -s /home/jacky/apps/annahaowedding/shared/public/assets /home/jacky/apps/annahaowedding/releases/20170212212156/public/assets
+  INFO [062160e8] Finished in 0.100 seconds with exit status 0 (successful).
+ DEBUG [380cec3a] Running if test ! -d /home/jacky/apps/annahaowedding/releases/20170212212156; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212212156'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [380cec3a] Command: if test ! -d /home/jacky/apps/annahaowedding/releases/20170212212156; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212212156'" 1>&2; false; fi
+ DEBUG [380cec3a] Finished in 0.084 seconds with exit status 0 (successful).
+ DEBUG [e24ae0fa] Running ~/.rvm/bin/rvm default do bundle check --path /home/jacky/apps/annahaowedding/shared/bundle on 104.131.35.203
+ DEBUG [e24ae0fa] Command: cd /home/jacky/apps/annahaowedding/releases/20170212212156 && ~/.rvm/bin/rvm default do bundle check --path /home/jacky/apps/annahaowedding/shared/bundle
+ DEBUG [e24ae0fa] 	[31mThe following gems are missing[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * rake (12.0.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * concurrent-ruby (1.0.4)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * i18n (0.7.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * minitest (5.10.1)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * thread_safe (0.3.5)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * tzinfo (1.2.2)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * activesupport (5.0.1)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * public_suffix (2.0.5)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * addressable (2.5.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * net-ssh (4.0.1)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * net-scp (1.2.1)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * sshkit (1.12.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * airbrussh (1.1.2)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * backports (3.6.8)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * sass (3.4.23)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * thor (0.19.4)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * bourbon (4.2.7)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * bitters (1.2.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * capistrano-harrow (0.5.3)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * capistrano (3.7.2)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * capistrano-bundler (1.2.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * capistrano-rails (1.2.2)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * capistrano-rvm (0.1.2)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * puma (3.7.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * capistrano3-puma (1.2.1)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * coffee-script-source (1.12.2)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * execjs (2.7.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * coffee-script (2.4.1)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * compass-import-once (1.0.5)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * contracts (0.13.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * dotenv (2.1.2)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * eventmachine (1.2.1)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * http_parser.rb (0.6.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * em-websocket (0.5.1)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * erubis (2.7.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * fast_blank (1.0.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * fastimage (2.0.1)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * ffi (1.9.17)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * tilt (2.0.5)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * haml (4.0.7)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * hamster (3.0.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * hashie (3.4.6)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * kramdown (1.13.2)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * rb-fsevent (0.9.8)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * rb-inotify (0.9.7)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * listen (3.0.8)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * memoist (0.15.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * middleman-cli (4.2.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * padrino-support (0.13.3.3)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * padrino-helpers (0.13.3.3)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * parallel (1.10.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * rack (2.0.1)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * servolux (0.12.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * uglifier (3.0.4)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * middleman-core (4.2.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * middleman (4.2.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * rack-livereload (0.3.16)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * middleman-livereload (3.4.6)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[31m * neat (1.8.0)[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] 	[33mInstall missing gems with `bundle install`[0m
+ DEBUG [e24ae0fa] 	
+ DEBUG [e24ae0fa] Finished in 1.726 seconds with exit status 1 (failed).
+  INFO [3547097c] Running ~/.rvm/bin/rvm default do bundle install --path /home/jacky/apps/annahaowedding/shared/bundle --without development test --deployment --quiet on 104.131.35.203
+ DEBUG [3547097c] Command: cd /home/jacky/apps/annahaowedding/releases/20170212212156 && ~/.rvm/bin/rvm default do bundle install --path /home/jacky/apps/annahaowedding/shared/bundle --without development test --deployment --quiet
+  INFO [3547097c] Finished in 49.405 seconds with exit status 0 (successful).
+ DEBUG [b49f15f6] Running if test ! -d /home/jacky/apps/annahaowedding/releases/20170212212156; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212212156'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [b49f15f6] Command: if test ! -d /home/jacky/apps/annahaowedding/releases/20170212212156; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212212156'" 1>&2; false; fi
+ DEBUG [b49f15f6] Finished in 0.119 seconds with exit status 0 (successful).
+  INFO [38234e4e] Running ~/.rvm/bin/rvm default do bundle exec rake assets:precompile on 104.131.35.203
+ DEBUG [38234e4e] Command: cd /home/jacky/apps/annahaowedding/releases/20170212212156 && ( export RAILS_ENV="production" ; ~/.rvm/bin/rvm default do bundle exec rake assets:precompile )
+ DEBUG [38234e4e] 	[31mbundler: failed to load command: rake (/home/jacky/.rvm/rubies/ruby-2.3.3/bin/rake)[0m
+ DEBUG [38234e4e] 	
+ DEBUG [38234e4e] 	Gem::Exception: can't find executable rake
+ DEBUG [38234e4e] 	
+ DEBUG [38234e4e] 	  /home/jacky/.rvm/gems/ruby-2.3.3/gems/bundler-1.14.3/lib/bundler/rubygems_integration.rb:407:in `block in replace_bin_path'
+ DEBUG [38234e4e] 	
+ DEBUG [38234e4e] 	  /home/jacky/.rvm/gems/ruby-2.3.3/gems/bundler-1.14.3/lib/bundler/rubygems_integration.rb:433:in `block in replace_bin_path'
+ DEBUG [38234e4e] 	
+ DEBUG [38234e4e] 	  /home/jacky/.rvm/rubies/ruby-2.3.3/bin/rake:22:in `<top (required)>'
+ DEBUG [38234e4e] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-12 16:27:16 -0500 cap production deploy:initial
+  INFO ---------------------------------------------------------------------------
+ DEBUG [cb86a22c] Running [ -d ~/.rvm ] on 104.131.35.203
+ DEBUG [cb86a22c] Command: [ -d ~/.rvm ]
+ DEBUG [cb86a22c] Finished in 0.724 seconds with exit status 0 (successful).
+ DEBUG [fc6bfa6d] Running ~/.rvm/bin/rvm version on 104.131.35.203
+ DEBUG [fc6bfa6d] Command: ~/.rvm/bin/rvm version
+ DEBUG [fc6bfa6d] 	rvm 1.28.0 (latest) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [fc6bfa6d] 	
+ DEBUG [fc6bfa6d] Finished in 1.130 seconds with exit status 0 (successful).
+ DEBUG [3abcf21a] Running ~/.rvm/bin/rvm current on 104.131.35.203
+ DEBUG [3abcf21a] Command: ~/.rvm/bin/rvm current
+ DEBUG [3abcf21a] 	ruby-2.3.3
+ DEBUG [3abcf21a] 	
+ DEBUG [3abcf21a] Finished in 0.919 seconds with exit status 0 (successful).
+ DEBUG [6373bcd9] Running ~/.rvm/bin/rvm default do ruby --version on 104.131.35.203
+ DEBUG [6373bcd9] Command: ~/.rvm/bin/rvm default do ruby --version
+ DEBUG [6373bcd9] 	ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-linux]
+ DEBUG [6373bcd9] 	
+ DEBUG [6373bcd9] Finished in 0.612 seconds with exit status 0 (successful).
+  INFO [b82500b7] Running /usr/bin/env mkdir -p /tmp on 104.131.35.203
+ DEBUG [b82500b7] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b82500b7] Finished in 0.081 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-annahaowedding-production-Jacky.sh 0.0%
+  INFO Uploading /tmp/git-ssh-annahaowedding-production-Jacky.sh 100.0%
+  INFO [38672052] Running /usr/bin/env chmod 700 /tmp/git-ssh-annahaowedding-production-Jacky.sh on 104.131.35.203
+ DEBUG [38672052] Command: /usr/bin/env chmod 700 /tmp/git-ssh-annahaowedding-production-Jacky.sh
+  INFO [38672052] Finished in 0.085 seconds with exit status 0 (successful).
+  INFO [3c5bbd28] Running /usr/bin/env git ls-remote git@github.com:giangjac/anna-hao-wedding.git HEAD on 104.131.35.203
+ DEBUG [3c5bbd28] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git ls-remote git@github.com:giangjac/anna-hao-wedding.git HEAD )
+ DEBUG [3c5bbd28] 	Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+ DEBUG [3c5bbd28] 	
+ DEBUG [3c5bbd28] 	94279e1c48070905364a5161465868790227068d
+ DEBUG [3c5bbd28] 		HEAD
+  INFO [3c5bbd28] Finished in 0.471 seconds with exit status 0 (successful).
+  INFO [9dff694e] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared /home/jacky/apps/annahaowedding/releases on 104.131.35.203
+ DEBUG [9dff694e] Command: /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared /home/jacky/apps/annahaowedding/releases
+  INFO [9dff694e] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [5668186a] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared/public/assets on 104.131.35.203
+ DEBUG [5668186a] Command: /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared/public/assets
+  INFO [5668186a] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [99278e38] Running [ -f /home/jacky/apps/annahaowedding/shared/puma.rb ] on 104.131.35.203
+ DEBUG [99278e38] Command: [ -f /home/jacky/apps/annahaowedding/shared/puma.rb ]
+ DEBUG [99278e38] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [fcdcca65] Running [ -f /home/jacky/apps/annahaowedding/current/REVISION ] on 104.131.35.203
+ DEBUG [fcdcca65] Command: [ -f /home/jacky/apps/annahaowedding/current/REVISION ]
+ DEBUG [fcdcca65] Finished in 0.079 seconds with exit status 1 (failed).
+ DEBUG [9e56769d] Running [ -f /home/jacky/apps/annahaowedding/repo/HEAD ] on 104.131.35.203
+ DEBUG [9e56769d] Command: [ -f /home/jacky/apps/annahaowedding/repo/HEAD ]
+ DEBUG [9e56769d] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/jacky/apps/annahaowedding/repo
+ DEBUG [10cf4a1e] Running if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [10cf4a1e] Command: if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi
+ DEBUG [10cf4a1e] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [d0c8349d] Running /usr/bin/env git remote set-url origin git@github.com:giangjac/anna-hao-wedding.git on 104.131.35.203
+ DEBUG [d0c8349d] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git remote set-url origin git@github.com:giangjac/anna-hao-wedding.git )
+  INFO [d0c8349d] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [ac8cc174] Running /usr/bin/env git remote update --prune on 104.131.35.203
+ DEBUG [ac8cc174] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [ac8cc174] 	Fetching origin
+ DEBUG [ac8cc174] 	
+  INFO [ac8cc174] Finished in 0.486 seconds with exit status 0 (successful).
+ DEBUG [90e6e86d] Running if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [90e6e86d] Command: if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi
+ DEBUG [90e6e86d] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [360a1789] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212212721 on 104.131.35.203
+ DEBUG [360a1789] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212212721 )
+  INFO [360a1789] Finished in 0.090 seconds with exit status 0 (successful).
+  INFO [89721554] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/jacky/apps/annahaowedding/releases/20170212212721 on 104.131.35.203
+ DEBUG [89721554] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/jacky/apps/annahaowedding/releases/20170212212721 )
+  INFO [89721554] Finished in 0.165 seconds with exit status 0 (successful).
+ DEBUG [0febe345] Running if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [0febe345] Command: if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi
+ DEBUG [0febe345] Finished in 0.084 seconds with exit status 0 (successful).
+ DEBUG [f65784c3] Running /usr/bin/env git rev-list --max-count=1 master on 104.131.35.203
+ DEBUG [f65784c3] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [f65784c3] 	94279e1c48070905364a5161465868790227068d
+ DEBUG [f65784c3] 	
+ DEBUG [f65784c3] Finished in 0.088 seconds with exit status 0 (successful).
+ DEBUG [0dc5b42d] Running if test ! -d /home/jacky/apps/annahaowedding/releases/20170212212721; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212212721'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [0dc5b42d] Command: if test ! -d /home/jacky/apps/annahaowedding/releases/20170212212721; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212212721'" 1>&2; false; fi
+ DEBUG [0dc5b42d] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [f74b8582] Running /usr/bin/env echo "94279e1c48070905364a5161465868790227068d" >> REVISION on 104.131.35.203
+ DEBUG [f74b8582] Command: cd /home/jacky/apps/annahaowedding/releases/20170212212721 && /usr/bin/env echo "94279e1c48070905364a5161465868790227068d" >> REVISION
+  INFO [f74b8582] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [d80760eb] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212212721/public on 104.131.35.203
+ DEBUG [d80760eb] Command: /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212212721/public
+  INFO [d80760eb] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [2e6aa260] Running [ -L /home/jacky/apps/annahaowedding/releases/20170212212721/public/assets ] on 104.131.35.203
+ DEBUG [2e6aa260] Command: [ -L /home/jacky/apps/annahaowedding/releases/20170212212721/public/assets ]
+ DEBUG [2e6aa260] Finished in 0.078 seconds with exit status 1 (failed).
+ DEBUG [1bafccee] Running [ -d /home/jacky/apps/annahaowedding/releases/20170212212721/public/assets ] on 104.131.35.203
+ DEBUG [1bafccee] Command: [ -d /home/jacky/apps/annahaowedding/releases/20170212212721/public/assets ]
+ DEBUG [1bafccee] Finished in 0.082 seconds with exit status 1 (failed).
+  INFO [0697b6aa] Running /usr/bin/env ln -s /home/jacky/apps/annahaowedding/shared/public/assets /home/jacky/apps/annahaowedding/releases/20170212212721/public/assets on 104.131.35.203
+ DEBUG [0697b6aa] Command: /usr/bin/env ln -s /home/jacky/apps/annahaowedding/shared/public/assets /home/jacky/apps/annahaowedding/releases/20170212212721/public/assets
+  INFO [0697b6aa] Finished in 0.084 seconds with exit status 0 (successful).
+ DEBUG [014f44ee] Running if test ! -d /home/jacky/apps/annahaowedding/releases/20170212212721; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212212721'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [014f44ee] Command: if test ! -d /home/jacky/apps/annahaowedding/releases/20170212212721; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212212721'" 1>&2; false; fi
+ DEBUG [014f44ee] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [4ecff06b] Running ~/.rvm/bin/rvm default do bundle check --path /home/jacky/apps/annahaowedding/shared/bundle on 104.131.35.203
+ DEBUG [4ecff06b] Command: cd /home/jacky/apps/annahaowedding/releases/20170212212721 && ~/.rvm/bin/rvm default do bundle check --path /home/jacky/apps/annahaowedding/shared/bundle
+ DEBUG [4ecff06b] 	[31mThe following gems are missing[0m
+ DEBUG [4ecff06b] 	
+ DEBUG [4ecff06b] 	[31m * rake (12.0.0)[0m
+ DEBUG [4ecff06b] 	
+ DEBUG [4ecff06b] 	[31m * net-ssh (4.0.1)[0m
+ DEBUG [4ecff06b] 	
+ DEBUG [4ecff06b] 	[31m * net-scp (1.2.1)[0m
+ DEBUG [4ecff06b] 	
+ DEBUG [4ecff06b] 	[31m * sshkit (1.12.0)[0m
+ DEBUG [4ecff06b] 	
+ DEBUG [4ecff06b] 	[31m * airbrussh (1.1.2)[0m
+ DEBUG [4ecff06b] 	
+ DEBUG [4ecff06b] 	[31m * capistrano-harrow (0.5.3)[0m
+ DEBUG [4ecff06b] 	
+ DEBUG [4ecff06b] 	[31m * capistrano (3.7.2)[0m
+ DEBUG [4ecff06b] 	
+ DEBUG [4ecff06b] 	[31m * capistrano-bundler (1.2.0)[0m
+ DEBUG [4ecff06b] 	
+ DEBUG [4ecff06b] 	[31m * capistrano-rails (1.2.2)[0m
+ DEBUG [4ecff06b] 	
+ DEBUG [4ecff06b] 	[31m * capistrano-rvm (0.1.2)[0m
+ DEBUG [4ecff06b] 	
+ DEBUG [4ecff06b] 	[31m * capistrano3-puma (1.2.1)[0m
+ DEBUG [4ecff06b] 	
+ DEBUG [4ecff06b] 	[33mInstall missing gems with `bundle install`[0m
+ DEBUG [4ecff06b] 	
+ DEBUG [4ecff06b] Finished in 0.926 seconds with exit status 1 (failed).
+  INFO [d7a507aa] Running ~/.rvm/bin/rvm default do bundle install --path /home/jacky/apps/annahaowedding/shared/bundle --without development test --deployment --quiet on 104.131.35.203
+ DEBUG [d7a507aa] Command: cd /home/jacky/apps/annahaowedding/releases/20170212212721 && ~/.rvm/bin/rvm default do bundle install --path /home/jacky/apps/annahaowedding/shared/bundle --without development test --deployment --quiet
+  INFO [d7a507aa] Finished in 7.040 seconds with exit status 0 (successful).
+ DEBUG [99fd79ef] Running if test ! -d /home/jacky/apps/annahaowedding/releases/20170212212721; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212212721'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [99fd79ef] Command: if test ! -d /home/jacky/apps/annahaowedding/releases/20170212212721; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212212721'" 1>&2; false; fi
+ DEBUG [99fd79ef] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [4d151c9c] Running ~/.rvm/bin/rvm default do bundle exec rake assets:precompile on 104.131.35.203
+ DEBUG [4d151c9c] Command: cd /home/jacky/apps/annahaowedding/releases/20170212212721 && ( export RAILS_ENV="production" ; ~/.rvm/bin/rvm default do bundle exec rake assets:precompile )
+ DEBUG [4d151c9c] 	[31mbundler: failed to load command: rake (/home/jacky/.rvm/rubies/ruby-2.3.3/bin/rake)[0m
+ DEBUG [4d151c9c] 	
+ DEBUG [4d151c9c] 	Gem::Exception: can't find executable rake
+ DEBUG [4d151c9c] 	
+ DEBUG [4d151c9c] 	  /home/jacky/.rvm/gems/ruby-2.3.3/gems/bundler-1.14.3/lib/bundler/rubygems_integration.rb:407:in `block in replace_bin_path'
+ DEBUG [4d151c9c] 	
+ DEBUG [4d151c9c] 	  /home/jacky/.rvm/gems/ruby-2.3.3/gems/bundler-1.14.3/lib/bundler/rubygems_integration.rb:433:in `block in replace_bin_path'
+ DEBUG [4d151c9c] 	
+ DEBUG [4d151c9c] 	  /home/jacky/.rvm/rubies/ruby-2.3.3/bin/rake:22:in `<top (required)>'
+ DEBUG [4d151c9c] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-12 17:12:20 -0500 cap production deploy:initial
+  INFO ---------------------------------------------------------------------------
+ DEBUG [15b28bba] Running [ -d ~/.rvm ] on 104.131.35.203
+ DEBUG [15b28bba] Command: [ -d ~/.rvm ]
+ DEBUG [15b28bba] Finished in 0.919 seconds with exit status 0 (successful).
+ DEBUG [a019b933] Running ~/.rvm/bin/rvm version on 104.131.35.203
+ DEBUG [a019b933] Command: ~/.rvm/bin/rvm version
+ DEBUG [a019b933] 	rvm 1.28.0 (latest) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [a019b933] 	
+ DEBUG [a019b933] Finished in 1.198 seconds with exit status 0 (successful).
+ DEBUG [fa346235] Running ~/.rvm/bin/rvm current on 104.131.35.203
+ DEBUG [fa346235] Command: ~/.rvm/bin/rvm current
+ DEBUG [fa346235] 	ruby-2.3.3
+ DEBUG [fa346235] 	
+ DEBUG [fa346235] Finished in 1.208 seconds with exit status 0 (successful).
+ DEBUG [47029f49] Running ~/.rvm/bin/rvm default do ruby --version on 104.131.35.203
+ DEBUG [47029f49] Command: ~/.rvm/bin/rvm default do ruby --version
+ DEBUG [47029f49] 	ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-linux]
+ DEBUG [47029f49] 	
+ DEBUG [47029f49] Finished in 0.749 seconds with exit status 0 (successful).
+  INFO [9206c6b2] Running /usr/bin/env mkdir -p /tmp on 104.131.35.203
+ DEBUG [9206c6b2] Command: /usr/bin/env mkdir -p /tmp
+  INFO [9206c6b2] Finished in 0.107 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-annahaowedding-production-Jacky.sh 0.0%
+  INFO Uploading /tmp/git-ssh-annahaowedding-production-Jacky.sh 100.0%
+  INFO [ba82b747] Running /usr/bin/env chmod 700 /tmp/git-ssh-annahaowedding-production-Jacky.sh on 104.131.35.203
+ DEBUG [ba82b747] Command: /usr/bin/env chmod 700 /tmp/git-ssh-annahaowedding-production-Jacky.sh
+  INFO [ba82b747] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [9604d69a] Running /usr/bin/env git ls-remote git@github.com:giangjac/anna-hao-wedding.git HEAD on 104.131.35.203
+ DEBUG [9604d69a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git ls-remote git@github.com:giangjac/anna-hao-wedding.git HEAD )
+ DEBUG [9604d69a] 	94279e1c48070905364a5161465868790227068d
+ DEBUG [9604d69a] 		
+ DEBUG [9604d69a] 	HEAD
+  INFO [9604d69a] Finished in 0.572 seconds with exit status 0 (successful).
+  INFO [b9f863ae] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared /home/jacky/apps/annahaowedding/releases on 104.131.35.203
+ DEBUG [b9f863ae] Command: /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared /home/jacky/apps/annahaowedding/releases
+  INFO [b9f863ae] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO [2ae05591] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared/public/assets on 104.131.35.203
+ DEBUG [2ae05591] Command: /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared/public/assets
+  INFO [2ae05591] Finished in 0.089 seconds with exit status 0 (successful).
+ DEBUG [b2cd7c51] Running [ -f /home/jacky/apps/annahaowedding/shared/puma.rb ] on 104.131.35.203
+ DEBUG [b2cd7c51] Command: [ -f /home/jacky/apps/annahaowedding/shared/puma.rb ]
+ DEBUG [b2cd7c51] Finished in 0.122 seconds with exit status 0 (successful).
+ DEBUG [7b0b1a10] Running [ -f /home/jacky/apps/annahaowedding/current/REVISION ] on 104.131.35.203
+ DEBUG [7b0b1a10] Command: [ -f /home/jacky/apps/annahaowedding/current/REVISION ]
+ DEBUG [7b0b1a10] Finished in 0.101 seconds with exit status 1 (failed).
+ DEBUG [5eaccfbf] Running [ -f /home/jacky/apps/annahaowedding/repo/HEAD ] on 104.131.35.203
+ DEBUG [5eaccfbf] Command: [ -f /home/jacky/apps/annahaowedding/repo/HEAD ]
+ DEBUG [5eaccfbf] Finished in 0.110 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/jacky/apps/annahaowedding/repo
+ DEBUG [d7a82645] Running if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [d7a82645] Command: if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi
+ DEBUG [d7a82645] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [6e34710c] Running /usr/bin/env git remote set-url origin git@github.com:giangjac/anna-hao-wedding.git on 104.131.35.203
+ DEBUG [6e34710c] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git remote set-url origin git@github.com:giangjac/anna-hao-wedding.git )
+  INFO [6e34710c] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [081ed03b] Running /usr/bin/env git remote update --prune on 104.131.35.203
+ DEBUG [081ed03b] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [081ed03b] 	Fetching origin
+ DEBUG [081ed03b] 	
+  INFO [081ed03b] Finished in 0.548 seconds with exit status 0 (successful).
+ DEBUG [34b91522] Running if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [34b91522] Command: if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi
+ DEBUG [34b91522] Finished in 0.166 seconds with exit status 0 (successful).
+  INFO [fc4c5c9c] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212221225 on 104.131.35.203
+ DEBUG [fc4c5c9c] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212221225 )
+  INFO [fc4c5c9c] Finished in 0.119 seconds with exit status 0 (successful).
+  INFO [58379ac4] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/jacky/apps/annahaowedding/releases/20170212221225 on 104.131.35.203
+ DEBUG [58379ac4] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/jacky/apps/annahaowedding/releases/20170212221225 )
+  INFO [58379ac4] Finished in 0.149 seconds with exit status 0 (successful).
+ DEBUG [4b466606] Running if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [4b466606] Command: if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi
+ DEBUG [4b466606] Finished in 0.087 seconds with exit status 0 (successful).
+ DEBUG [d233e03c] Running /usr/bin/env git rev-list --max-count=1 master on 104.131.35.203
+ DEBUG [d233e03c] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [d233e03c] 	94279e1c48070905364a5161465868790227068d
+ DEBUG [d233e03c] 	
+ DEBUG [d233e03c] Finished in 0.112 seconds with exit status 0 (successful).
+ DEBUG [218209cc] Running if test ! -d /home/jacky/apps/annahaowedding/releases/20170212221225; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212221225'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [218209cc] Command: if test ! -d /home/jacky/apps/annahaowedding/releases/20170212221225; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212221225'" 1>&2; false; fi
+ DEBUG [218209cc] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [1a3c23ca] Running /usr/bin/env echo "94279e1c48070905364a5161465868790227068d" >> REVISION on 104.131.35.203
+ DEBUG [1a3c23ca] Command: cd /home/jacky/apps/annahaowedding/releases/20170212221225 && /usr/bin/env echo "94279e1c48070905364a5161465868790227068d" >> REVISION
+  INFO [1a3c23ca] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [9bc842ad] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212221225/public on 104.131.35.203
+ DEBUG [9bc842ad] Command: /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212221225/public
+  INFO [9bc842ad] Finished in 0.087 seconds with exit status 0 (successful).
+ DEBUG [90f0207c] Running [ -L /home/jacky/apps/annahaowedding/releases/20170212221225/public/assets ] on 104.131.35.203
+ DEBUG [90f0207c] Command: [ -L /home/jacky/apps/annahaowedding/releases/20170212221225/public/assets ]
+ DEBUG [90f0207c] Finished in 0.081 seconds with exit status 1 (failed).
+ DEBUG [ca35e2ef] Running [ -d /home/jacky/apps/annahaowedding/releases/20170212221225/public/assets ] on 104.131.35.203
+ DEBUG [ca35e2ef] Command: [ -d /home/jacky/apps/annahaowedding/releases/20170212221225/public/assets ]
+ DEBUG [ca35e2ef] Finished in 0.086 seconds with exit status 1 (failed).
+  INFO [81d329fe] Running /usr/bin/env ln -s /home/jacky/apps/annahaowedding/shared/public/assets /home/jacky/apps/annahaowedding/releases/20170212221225/public/assets on 104.131.35.203
+ DEBUG [81d329fe] Command: /usr/bin/env ln -s /home/jacky/apps/annahaowedding/shared/public/assets /home/jacky/apps/annahaowedding/releases/20170212221225/public/assets
+  INFO [81d329fe] Finished in 0.106 seconds with exit status 0 (successful).
+ DEBUG [2cb1d139] Running if test ! -d /home/jacky/apps/annahaowedding/releases/20170212221225; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212221225'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [2cb1d139] Command: if test ! -d /home/jacky/apps/annahaowedding/releases/20170212221225; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212221225'" 1>&2; false; fi
+ DEBUG [2cb1d139] Finished in 0.084 seconds with exit status 0 (successful).
+ DEBUG [8caf5dca] Running ~/.rvm/bin/rvm default do bundle check --path /home/jacky/apps/annahaowedding/shared/bundle on 104.131.35.203
+ DEBUG [8caf5dca] Command: cd /home/jacky/apps/annahaowedding/releases/20170212221225 && ~/.rvm/bin/rvm default do bundle check --path /home/jacky/apps/annahaowedding/shared/bundle
+ DEBUG [8caf5dca] 	[31mThe following gems are missing[0m
+ DEBUG [8caf5dca] 	
+ DEBUG [8caf5dca] 	[31m * rake (12.0.0)[0m
+ DEBUG [8caf5dca] 	
+ DEBUG [8caf5dca] 	[31m * net-ssh (4.0.1)[0m
+ DEBUG [8caf5dca] 	
+ DEBUG [8caf5dca] 	[31m * net-scp (1.2.1)[0m
+ DEBUG [8caf5dca] 	
+ DEBUG [8caf5dca] 	[31m * sshkit (1.12.0)[0m
+ DEBUG [8caf5dca] 	
+ DEBUG [8caf5dca] 	[31m * airbrussh (1.1.2)[0m
+ DEBUG [8caf5dca] 	
+ DEBUG [8caf5dca] 	[31m * capistrano-harrow (0.5.3)[0m
+ DEBUG [8caf5dca] 	
+ DEBUG [8caf5dca] 	[31m * capistrano (3.7.2)[0m
+ DEBUG [8caf5dca] 	
+ DEBUG [8caf5dca] 	[31m * capistrano-bundler (1.2.0)[0m
+ DEBUG [8caf5dca] 	
+ DEBUG [8caf5dca] 	[31m * capistrano-rails (1.2.2)[0m
+ DEBUG [8caf5dca] 	
+ DEBUG [8caf5dca] 	[31m * capistrano-rvm (0.1.2)[0m
+ DEBUG [8caf5dca] 	
+ DEBUG [8caf5dca] 	[31m * capistrano3-puma (1.2.1)[0m
+ DEBUG [8caf5dca] 	
+ DEBUG [8caf5dca] 	[33mInstall missing gems with `bundle install`[0m
+ DEBUG [8caf5dca] 	
+ DEBUG [8caf5dca] Finished in 1.111 seconds with exit status 1 (failed).
+  INFO [f018bef9] Running ~/.rvm/bin/rvm default do bundle install --path /home/jacky/apps/annahaowedding/shared/bundle --without development test --deployment --quiet on 104.131.35.203
+ DEBUG [f018bef9] Command: cd /home/jacky/apps/annahaowedding/releases/20170212221225 && ~/.rvm/bin/rvm default do bundle install --path /home/jacky/apps/annahaowedding/shared/bundle --without development test --deployment --quiet
+  INFO [f018bef9] Finished in 6.740 seconds with exit status 0 (successful).
+ DEBUG [f7f7578b] Running if test ! -d /home/jacky/apps/annahaowedding/releases/20170212221225; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212221225'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [f7f7578b] Command: if test ! -d /home/jacky/apps/annahaowedding/releases/20170212221225; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212221225'" 1>&2; false; fi
+ DEBUG [f7f7578b] Finished in 0.119 seconds with exit status 0 (successful).
+  INFO [1a2d0319] Running ~/.rvm/bin/rvm default do bundle exec rake assets:precompile on 104.131.35.203
+ DEBUG [1a2d0319] Command: cd /home/jacky/apps/annahaowedding/releases/20170212221225 && ( export RAILS_ENV="production" ; ~/.rvm/bin/rvm default do bundle exec rake assets:precompile )
+ DEBUG [1a2d0319] 	[31mbundler: failed to load command: rake (/home/jacky/.rvm/rubies/ruby-2.3.3/bin/rake)[0m
+ DEBUG [1a2d0319] 	
+ DEBUG [1a2d0319] 	Gem::Exception: can't find executable rake
+ DEBUG [1a2d0319] 	
+ DEBUG [1a2d0319] 	  /home/jacky/.rvm/gems/ruby-2.3.3/gems/bundler-1.14.3/lib/bundler/rubygems_integration.rb:407:in `block in replace_bin_path'
+ DEBUG [1a2d0319] 	
+ DEBUG [1a2d0319] 	  /home/jacky/.rvm/gems/ruby-2.3.3/gems/bundler-1.14.3/lib/bundler/rubygems_integration.rb:433:in `block in replace_bin_path'
+ DEBUG [1a2d0319] 	
+ DEBUG [1a2d0319] 	  /home/jacky/.rvm/rubies/ruby-2.3.3/bin/rake:22:in `<top (required)>'
+ DEBUG [1a2d0319] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-12 17:30:45 -0500 cap production deploy:initial
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f2305364] Running [ -d ~/.rvm ] on 104.131.35.203
+ DEBUG [f2305364] Command: [ -d ~/.rvm ]
+ DEBUG [f2305364] Finished in 0.827 seconds with exit status 0 (successful).
+ DEBUG [5dee2cca] Running ~/.rvm/bin/rvm version on 104.131.35.203
+ DEBUG [5dee2cca] Command: ~/.rvm/bin/rvm version
+ DEBUG [5dee2cca] 	rvm 1.28.0 (latest) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [5dee2cca] 	
+ DEBUG [5dee2cca] Finished in 1.147 seconds with exit status 0 (successful).
+ DEBUG [0357200b] Running ~/.rvm/bin/rvm current on 104.131.35.203
+ DEBUG [0357200b] Command: ~/.rvm/bin/rvm current
+ DEBUG [0357200b] 	ruby-2.3.3
+ DEBUG [0357200b] 	
+ DEBUG [0357200b] Finished in 1.053 seconds with exit status 0 (successful).
+ DEBUG [31048bc9] Running ~/.rvm/bin/rvm default do ruby --version on 104.131.35.203
+ DEBUG [31048bc9] Command: ~/.rvm/bin/rvm default do ruby --version
+ DEBUG [31048bc9] 	ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-linux]
+ DEBUG [31048bc9] 	
+ DEBUG [31048bc9] Finished in 0.786 seconds with exit status 0 (successful).
+  INFO [bcccda69] Running /usr/bin/env mkdir -p /tmp on 104.131.35.203
+ DEBUG [bcccda69] Command: /usr/bin/env mkdir -p /tmp
+  INFO [bcccda69] Finished in 0.086 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-annahaowedding-production-Jacky.sh 0.0%
+  INFO Uploading /tmp/git-ssh-annahaowedding-production-Jacky.sh 100.0%
+  INFO [06a88dd8] Running /usr/bin/env chmod 700 /tmp/git-ssh-annahaowedding-production-Jacky.sh on 104.131.35.203
+ DEBUG [06a88dd8] Command: /usr/bin/env chmod 700 /tmp/git-ssh-annahaowedding-production-Jacky.sh
+  INFO [06a88dd8] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [fe96baad] Running /usr/bin/env git ls-remote git@github.com:giangjac/anna-hao-wedding.git HEAD on 104.131.35.203
+ DEBUG [fe96baad] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git ls-remote git@github.com:giangjac/anna-hao-wedding.git HEAD )
+ DEBUG [fe96baad] 	94279e1c48070905364a5161465868790227068d
+ DEBUG [fe96baad] 		
+ DEBUG [fe96baad] 	HEAD
+  INFO [fe96baad] Finished in 0.516 seconds with exit status 0 (successful).
+  INFO [36e725ab] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared /home/jacky/apps/annahaowedding/releases on 104.131.35.203
+ DEBUG [36e725ab] Command: /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared /home/jacky/apps/annahaowedding/releases
+  INFO [36e725ab] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [44fb9246] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared/public/assets on 104.131.35.203
+ DEBUG [44fb9246] Command: /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared/public/assets
+  INFO [44fb9246] Finished in 0.084 seconds with exit status 0 (successful).
+ DEBUG [44ad7b04] Running [ -f /home/jacky/apps/annahaowedding/shared/puma.rb ] on 104.131.35.203
+ DEBUG [44ad7b04] Command: [ -f /home/jacky/apps/annahaowedding/shared/puma.rb ]
+ DEBUG [44ad7b04] Finished in 0.090 seconds with exit status 0 (successful).
+ DEBUG [35240f4a] Running [ -f /home/jacky/apps/annahaowedding/current/REVISION ] on 104.131.35.203
+ DEBUG [35240f4a] Command: [ -f /home/jacky/apps/annahaowedding/current/REVISION ]
+ DEBUG [35240f4a] Finished in 0.085 seconds with exit status 1 (failed).
+ DEBUG [6e36e315] Running [ -f /home/jacky/apps/annahaowedding/repo/HEAD ] on 104.131.35.203
+ DEBUG [6e36e315] Command: [ -f /home/jacky/apps/annahaowedding/repo/HEAD ]
+ DEBUG [6e36e315] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/jacky/apps/annahaowedding/repo
+ DEBUG [f74ed335] Running if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [f74ed335] Command: if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi
+ DEBUG [f74ed335] Finished in 0.088 seconds with exit status 0 (successful).
+  INFO [4ba761ce] Running /usr/bin/env git remote set-url origin git@github.com:giangjac/anna-hao-wedding.git on 104.131.35.203
+ DEBUG [4ba761ce] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git remote set-url origin git@github.com:giangjac/anna-hao-wedding.git )
+  INFO [4ba761ce] Finished in 0.094 seconds with exit status 0 (successful).
+  INFO [9787f2fc] Running /usr/bin/env git remote update --prune on 104.131.35.203
+ DEBUG [9787f2fc] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [9787f2fc] 	Fetching origin
+ DEBUG [9787f2fc] 	
+  INFO [9787f2fc] Finished in 0.545 seconds with exit status 0 (successful).
+ DEBUG [1c3f2a01] Running if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [1c3f2a01] Command: if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi
+ DEBUG [1c3f2a01] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [786e8e1e] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212223050 on 104.131.35.203
+ DEBUG [786e8e1e] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212223050 )
+  INFO [786e8e1e] Finished in 0.106 seconds with exit status 0 (successful).
+  INFO [6d23e980] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/jacky/apps/annahaowedding/releases/20170212223050 on 104.131.35.203
+ DEBUG [6d23e980] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/jacky/apps/annahaowedding/releases/20170212223050 )
+  INFO [6d23e980] Finished in 0.159 seconds with exit status 0 (successful).
+ DEBUG [f7c19a24] Running if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [f7c19a24] Command: if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi
+ DEBUG [f7c19a24] Finished in 0.082 seconds with exit status 0 (successful).
+ DEBUG [e854d398] Running /usr/bin/env git rev-list --max-count=1 master on 104.131.35.203
+ DEBUG [e854d398] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [e854d398] 	94279e1c48070905364a5161465868790227068d
+ DEBUG [e854d398] 	
+ DEBUG [e854d398] Finished in 0.107 seconds with exit status 0 (successful).
+ DEBUG [1b6fe07c] Running if test ! -d /home/jacky/apps/annahaowedding/releases/20170212223050; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212223050'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [1b6fe07c] Command: if test ! -d /home/jacky/apps/annahaowedding/releases/20170212223050; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212223050'" 1>&2; false; fi
+ DEBUG [1b6fe07c] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [b3967ff1] Running /usr/bin/env echo "94279e1c48070905364a5161465868790227068d" >> REVISION on 104.131.35.203
+ DEBUG [b3967ff1] Command: cd /home/jacky/apps/annahaowedding/releases/20170212223050 && /usr/bin/env echo "94279e1c48070905364a5161465868790227068d" >> REVISION
+  INFO [b3967ff1] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [98b6af0c] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212223050/public on 104.131.35.203
+ DEBUG [98b6af0c] Command: /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212223050/public
+  INFO [98b6af0c] Finished in 0.089 seconds with exit status 0 (successful).
+ DEBUG [bc7c5bf3] Running [ -L /home/jacky/apps/annahaowedding/releases/20170212223050/public/assets ] on 104.131.35.203
+ DEBUG [bc7c5bf3] Command: [ -L /home/jacky/apps/annahaowedding/releases/20170212223050/public/assets ]
+ DEBUG [bc7c5bf3] Finished in 0.102 seconds with exit status 1 (failed).
+ DEBUG [6da6013d] Running [ -d /home/jacky/apps/annahaowedding/releases/20170212223050/public/assets ] on 104.131.35.203
+ DEBUG [6da6013d] Command: [ -d /home/jacky/apps/annahaowedding/releases/20170212223050/public/assets ]
+ DEBUG [6da6013d] Finished in 0.081 seconds with exit status 1 (failed).
+  INFO [42406ed8] Running /usr/bin/env ln -s /home/jacky/apps/annahaowedding/shared/public/assets /home/jacky/apps/annahaowedding/releases/20170212223050/public/assets on 104.131.35.203
+ DEBUG [42406ed8] Command: /usr/bin/env ln -s /home/jacky/apps/annahaowedding/shared/public/assets /home/jacky/apps/annahaowedding/releases/20170212223050/public/assets
+  INFO [42406ed8] Finished in 0.084 seconds with exit status 0 (successful).
+ DEBUG [af50d97a] Running if test ! -d /home/jacky/apps/annahaowedding/releases/20170212223050; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212223050'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [af50d97a] Command: if test ! -d /home/jacky/apps/annahaowedding/releases/20170212223050; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212223050'" 1>&2; false; fi
+ DEBUG [af50d97a] Finished in 0.085 seconds with exit status 0 (successful).
+ DEBUG [dfd0923f] Running ~/.rvm/bin/rvm default do bundle check --path /home/jacky/apps/annahaowedding/shared/bundle on 104.131.35.203
+ DEBUG [dfd0923f] Command: cd /home/jacky/apps/annahaowedding/releases/20170212223050 && ~/.rvm/bin/rvm default do bundle check --path /home/jacky/apps/annahaowedding/shared/bundle
+ DEBUG [dfd0923f] 	[31mThe following gems are missing[0m
+ DEBUG [dfd0923f] 	
+ DEBUG [dfd0923f] 	[31m * rake (12.0.0)[0m
+ DEBUG [dfd0923f] 	
+ DEBUG [dfd0923f] 	[31m * net-ssh (4.0.1)[0m
+ DEBUG [dfd0923f] 	
+ DEBUG [dfd0923f] 	[31m * net-scp (1.2.1)[0m
+ DEBUG [dfd0923f] 	
+ DEBUG [dfd0923f] 	[31m * sshkit (1.12.0)[0m
+ DEBUG [dfd0923f] 	
+ DEBUG [dfd0923f] 	[31m * airbrussh (1.1.2)[0m
+ DEBUG [dfd0923f] 	
+ DEBUG [dfd0923f] 	[31m * capistrano-harrow (0.5.3)[0m
+ DEBUG [dfd0923f] 	
+ DEBUG [dfd0923f] 	[31m * capistrano (3.7.2)[0m
+ DEBUG [dfd0923f] 	
+ DEBUG [dfd0923f] 	[31m * capistrano-bundler (1.2.0)[0m
+ DEBUG [dfd0923f] 	
+ DEBUG [dfd0923f] 	[31m * capistrano-rails (1.2.2)[0m
+ DEBUG [dfd0923f] 	
+ DEBUG [dfd0923f] 	[31m * capistrano-rvm (0.1.2)[0m
+ DEBUG [dfd0923f] 	
+ DEBUG [dfd0923f] 	[31m * capistrano3-puma (1.2.1)[0m
+ DEBUG [dfd0923f] 	
+ DEBUG [dfd0923f] 	[33mInstall missing gems with `bundle install`[0m
+ DEBUG [dfd0923f] 	
+ DEBUG [dfd0923f] Finished in 1.281 seconds with exit status 1 (failed).
+  INFO [a6d2fb0e] Running ~/.rvm/bin/rvm default do bundle install --path /home/jacky/apps/annahaowedding/shared/bundle --without development test --deployment --quiet on 104.131.35.203
+ DEBUG [a6d2fb0e] Command: cd /home/jacky/apps/annahaowedding/releases/20170212223050 && ~/.rvm/bin/rvm default do bundle install --path /home/jacky/apps/annahaowedding/shared/bundle --without development test --deployment --quiet
+  INFO [a6d2fb0e] Finished in 6.324 seconds with exit status 0 (successful).
+ DEBUG [7d4f7712] Running if test ! -d /home/jacky/apps/annahaowedding/releases/20170212223050; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212223050'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [7d4f7712] Command: if test ! -d /home/jacky/apps/annahaowedding/releases/20170212223050; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212223050'" 1>&2; false; fi
+ DEBUG [7d4f7712] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO [bd49efda] Running ~/.rvm/bin/rvm default do bundle exec rake assets:precompile on 104.131.35.203
+ DEBUG [bd49efda] Command: cd /home/jacky/apps/annahaowedding/releases/20170212223050 && ( export RAILS_ENV="production" ; ~/.rvm/bin/rvm default do bundle exec rake assets:precompile )
+ DEBUG [bd49efda] 	[31mbundler: failed to load command: rake (/home/jacky/.rvm/rubies/ruby-2.3.3/bin/rake)[0m
+ DEBUG [bd49efda] 	
+ DEBUG [bd49efda] 	Gem::Exception: can't find executable rake
+ DEBUG [bd49efda] 	
+ DEBUG [bd49efda] 	  /home/jacky/.rvm/gems/ruby-2.3.3/gems/bundler-1.14.3/lib/bundler/rubygems_integration.rb:407:in `block in replace_bin_path'
+ DEBUG [bd49efda] 	
+ DEBUG [bd49efda] 	  /home/jacky/.rvm/gems/ruby-2.3.3/gems/bundler-1.14.3/lib/bundler/rubygems_integration.rb:433:in `block in replace_bin_path'
+ DEBUG [bd49efda] 	
+ DEBUG [bd49efda] 	  /home/jacky/.rvm/rubies/ruby-2.3.3/bin/rake:22:in `<top (required)>'
+ DEBUG [bd49efda] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-12 17:33:53 -0500 cap production deploy:initial
+  INFO ---------------------------------------------------------------------------
+ DEBUG [cbf6c1ef] Running [ -d ~/.rvm ] on 104.131.35.203
+ DEBUG [cbf6c1ef] Command: [ -d ~/.rvm ]
+ DEBUG [cbf6c1ef] Finished in 0.881 seconds with exit status 0 (successful).
+ DEBUG [626ed0b3] Running ~/.rvm/bin/rvm version on 104.131.35.203
+ DEBUG [626ed0b3] Command: ~/.rvm/bin/rvm version
+ DEBUG [626ed0b3] 	rvm 1.28.0 (latest) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [626ed0b3] 	
+ DEBUG [626ed0b3] Finished in 1.072 seconds with exit status 0 (successful).
+ DEBUG [7868c0d1] Running ~/.rvm/bin/rvm current on 104.131.35.203
+ DEBUG [7868c0d1] Command: ~/.rvm/bin/rvm current
+ DEBUG [7868c0d1] 	ruby-2.3.3
+ DEBUG [7868c0d1] 	
+ DEBUG [7868c0d1] Finished in 1.030 seconds with exit status 0 (successful).
+ DEBUG [60bba331] Running ~/.rvm/bin/rvm default do ruby --version on 104.131.35.203
+ DEBUG [60bba331] Command: ~/.rvm/bin/rvm default do ruby --version
+ DEBUG [60bba331] 	ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-linux]
+ DEBUG [60bba331] 	
+ DEBUG [60bba331] Finished in 0.487 seconds with exit status 0 (successful).
+  INFO [2c616216] Running /usr/bin/env mkdir -p /tmp on 104.131.35.203
+ DEBUG [2c616216] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2c616216] Finished in 0.105 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-annahaowedding-production-Jacky.sh 0.0%
+  INFO Uploading /tmp/git-ssh-annahaowedding-production-Jacky.sh 100.0%
+  INFO [66c2a7ec] Running /usr/bin/env chmod 700 /tmp/git-ssh-annahaowedding-production-Jacky.sh on 104.131.35.203
+ DEBUG [66c2a7ec] Command: /usr/bin/env chmod 700 /tmp/git-ssh-annahaowedding-production-Jacky.sh
+  INFO [66c2a7ec] Finished in 0.085 seconds with exit status 0 (successful).
+  INFO [c15f74a8] Running /usr/bin/env git ls-remote git@github.com:giangjac/anna-hao-wedding.git HEAD on 104.131.35.203
+ DEBUG [c15f74a8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git ls-remote git@github.com:giangjac/anna-hao-wedding.git HEAD )
+ DEBUG [c15f74a8] 	94279e1c48070905364a5161465868790227068d
+ DEBUG [c15f74a8] 		HEAD
+  INFO [c15f74a8] Finished in 0.496 seconds with exit status 0 (successful).
+  INFO [33f42f4f] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared /home/jacky/apps/annahaowedding/releases on 104.131.35.203
+ DEBUG [33f42f4f] Command: /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared /home/jacky/apps/annahaowedding/releases
+  INFO [33f42f4f] Finished in 0.123 seconds with exit status 0 (successful).
+  INFO [69b5a3f0] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared/public/assets on 104.131.35.203
+ DEBUG [69b5a3f0] Command: /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/shared/public/assets
+  INFO [69b5a3f0] Finished in 0.092 seconds with exit status 0 (successful).
+ DEBUG [bcd98f2f] Running [ -f /home/jacky/apps/annahaowedding/shared/puma.rb ] on 104.131.35.203
+ DEBUG [bcd98f2f] Command: [ -f /home/jacky/apps/annahaowedding/shared/puma.rb ]
+ DEBUG [bcd98f2f] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [14149429] Running [ -f /home/jacky/apps/annahaowedding/current/REVISION ] on 104.131.35.203
+ DEBUG [14149429] Command: [ -f /home/jacky/apps/annahaowedding/current/REVISION ]
+ DEBUG [14149429] Finished in 0.088 seconds with exit status 1 (failed).
+ DEBUG [c53e778c] Running [ -f /home/jacky/apps/annahaowedding/repo/HEAD ] on 104.131.35.203
+ DEBUG [c53e778c] Command: [ -f /home/jacky/apps/annahaowedding/repo/HEAD ]
+ DEBUG [c53e778c] Finished in 0.088 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/jacky/apps/annahaowedding/repo
+ DEBUG [b70155b3] Running if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [b70155b3] Command: if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi
+ DEBUG [b70155b3] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [5623fd9f] Running /usr/bin/env git remote set-url origin git@github.com:giangjac/anna-hao-wedding.git on 104.131.35.203
+ DEBUG [5623fd9f] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git remote set-url origin git@github.com:giangjac/anna-hao-wedding.git )
+  INFO [5623fd9f] Finished in 0.088 seconds with exit status 0 (successful).
+  INFO [873c390b] Running /usr/bin/env git remote update --prune on 104.131.35.203
+ DEBUG [873c390b] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [873c390b] 	Fetching origin
+ DEBUG [873c390b] 	
+  INFO [873c390b] Finished in 0.500 seconds with exit status 0 (successful).
+ DEBUG [207b1250] Running if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [207b1250] Command: if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi
+ DEBUG [207b1250] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [20f3ca63] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212223358 on 104.131.35.203
+ DEBUG [20f3ca63] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212223358 )
+  INFO [20f3ca63] Finished in 0.086 seconds with exit status 0 (successful).
+  INFO [60fca759] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/jacky/apps/annahaowedding/releases/20170212223358 on 104.131.35.203
+ DEBUG [60fca759] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/jacky/apps/annahaowedding/releases/20170212223358 )
+  INFO [60fca759] Finished in 0.134 seconds with exit status 0 (successful).
+ DEBUG [bb6877fa] Running if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [bb6877fa] Command: if test ! -d /home/jacky/apps/annahaowedding/repo; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/repo'" 1>&2; false; fi
+ DEBUG [bb6877fa] Finished in 0.085 seconds with exit status 0 (successful).
+ DEBUG [a9ba21b0] Running /usr/bin/env git rev-list --max-count=1 master on 104.131.35.203
+ DEBUG [a9ba21b0] Command: cd /home/jacky/apps/annahaowedding/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-annahaowedding-production-Jacky.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [a9ba21b0] 	94279e1c48070905364a5161465868790227068d
+ DEBUG [a9ba21b0] 	
+ DEBUG [a9ba21b0] Finished in 0.090 seconds with exit status 0 (successful).
+ DEBUG [cde42c88] Running if test ! -d /home/jacky/apps/annahaowedding/releases/20170212223358; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212223358'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [cde42c88] Command: if test ! -d /home/jacky/apps/annahaowedding/releases/20170212223358; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212223358'" 1>&2; false; fi
+ DEBUG [cde42c88] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [135a266e] Running /usr/bin/env echo "94279e1c48070905364a5161465868790227068d" >> REVISION on 104.131.35.203
+ DEBUG [135a266e] Command: cd /home/jacky/apps/annahaowedding/releases/20170212223358 && /usr/bin/env echo "94279e1c48070905364a5161465868790227068d" >> REVISION
+  INFO [135a266e] Finished in 0.093 seconds with exit status 0 (successful).
+  INFO [ddcf14a2] Running /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212223358/public on 104.131.35.203
+ DEBUG [ddcf14a2] Command: /usr/bin/env mkdir -p /home/jacky/apps/annahaowedding/releases/20170212223358/public
+  INFO [ddcf14a2] Finished in 0.101 seconds with exit status 0 (successful).
+ DEBUG [69ddeed4] Running [ -L /home/jacky/apps/annahaowedding/releases/20170212223358/public/assets ] on 104.131.35.203
+ DEBUG [69ddeed4] Command: [ -L /home/jacky/apps/annahaowedding/releases/20170212223358/public/assets ]
+ DEBUG [69ddeed4] Finished in 0.086 seconds with exit status 1 (failed).
+ DEBUG [59fff736] Running [ -d /home/jacky/apps/annahaowedding/releases/20170212223358/public/assets ] on 104.131.35.203
+ DEBUG [59fff736] Command: [ -d /home/jacky/apps/annahaowedding/releases/20170212223358/public/assets ]
+ DEBUG [59fff736] Finished in 0.082 seconds with exit status 1 (failed).
+  INFO [2bff205a] Running /usr/bin/env ln -s /home/jacky/apps/annahaowedding/shared/public/assets /home/jacky/apps/annahaowedding/releases/20170212223358/public/assets on 104.131.35.203
+ DEBUG [2bff205a] Command: /usr/bin/env ln -s /home/jacky/apps/annahaowedding/shared/public/assets /home/jacky/apps/annahaowedding/releases/20170212223358/public/assets
+  INFO [2bff205a] Finished in 0.088 seconds with exit status 0 (successful).
+ DEBUG [82c38df1] Running if test ! -d /home/jacky/apps/annahaowedding/releases/20170212223358; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212223358'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [82c38df1] Command: if test ! -d /home/jacky/apps/annahaowedding/releases/20170212223358; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212223358'" 1>&2; false; fi
+ DEBUG [82c38df1] Finished in 0.087 seconds with exit status 0 (successful).
+ DEBUG [4d64650c] Running ~/.rvm/bin/rvm default do bundle check --path /home/jacky/apps/annahaowedding/shared/bundle on 104.131.35.203
+ DEBUG [4d64650c] Command: cd /home/jacky/apps/annahaowedding/releases/20170212223358 && ~/.rvm/bin/rvm default do bundle check --path /home/jacky/apps/annahaowedding/shared/bundle
+ DEBUG [4d64650c] 	[31mThe following gems are missing[0m
+ DEBUG [4d64650c] 	
+ DEBUG [4d64650c] 	[31m * rake (12.0.0)[0m
+ DEBUG [4d64650c] 	
+ DEBUG [4d64650c] 	[31m * net-ssh (4.0.1)[0m
+ DEBUG [4d64650c] 	
+ DEBUG [4d64650c] 	[31m * net-scp (1.2.1)[0m
+ DEBUG [4d64650c] 	
+ DEBUG [4d64650c] 	[31m * sshkit (1.12.0)[0m
+ DEBUG [4d64650c] 	
+ DEBUG [4d64650c] 	[31m * airbrussh (1.1.2)[0m
+ DEBUG [4d64650c] 	
+ DEBUG [4d64650c] 	[31m * capistrano-harrow (0.5.3)[0m
+ DEBUG [4d64650c] 	
+ DEBUG [4d64650c] 	[31m * capistrano (3.7.2)[0m
+ DEBUG [4d64650c] 	
+ DEBUG [4d64650c] 	[31m * capistrano-bundler (1.2.0)[0m
+ DEBUG [4d64650c] 	
+ DEBUG [4d64650c] 	[31m * capistrano-rails (1.2.2)[0m
+ DEBUG [4d64650c] 	
+ DEBUG [4d64650c] 	[31m * capistrano-rvm (0.1.2)[0m
+ DEBUG [4d64650c] 	
+ DEBUG [4d64650c] 	[31m * capistrano3-puma (1.2.1)[0m
+ DEBUG [4d64650c] 	
+ DEBUG [4d64650c] 	[33mInstall missing gems with `bundle install`[0m
+ DEBUG [4d64650c] 	
+ DEBUG [4d64650c] Finished in 1.282 seconds with exit status 1 (failed).
+  INFO [3a64a344] Running ~/.rvm/bin/rvm default do bundle install --path /home/jacky/apps/annahaowedding/shared/bundle --without development test --deployment --quiet on 104.131.35.203
+ DEBUG [3a64a344] Command: cd /home/jacky/apps/annahaowedding/releases/20170212223358 && ~/.rvm/bin/rvm default do bundle install --path /home/jacky/apps/annahaowedding/shared/bundle --without development test --deployment --quiet
+  INFO [3a64a344] Finished in 5.792 seconds with exit status 0 (successful).
+ DEBUG [43224a8f] Running if test ! -d /home/jacky/apps/annahaowedding/releases/20170212223358; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212223358'" 1>&2; false; fi on 104.131.35.203
+ DEBUG [43224a8f] Command: if test ! -d /home/jacky/apps/annahaowedding/releases/20170212223358; then echo "Directory does not exist '/home/jacky/apps/annahaowedding/releases/20170212223358'" 1>&2; false; fi
+ DEBUG [43224a8f] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [502c5bdc] Running ~/.rvm/bin/rvm default do bundle exec rake assets:precompile on 104.131.35.203
+ DEBUG [502c5bdc] Command: cd /home/jacky/apps/annahaowedding/releases/20170212223358 && ( export RAILS_ENV="production" ; ~/.rvm/bin/rvm default do bundle exec rake assets:precompile )
+ DEBUG [502c5bdc] 	[31mbundler: failed to load command: rake (/home/jacky/.rvm/rubies/ruby-2.3.3/bin/rake)[0m
+ DEBUG [502c5bdc] 	
+ DEBUG [502c5bdc] 	Gem::Exception: can't find executable rake
+ DEBUG [502c5bdc] 	
+ DEBUG [502c5bdc] 	  /home/jacky/.rvm/gems/ruby-2.3.3/gems/bundler-1.14.3/lib/bundler/rubygems_integration.rb:407:in `block in replace_bin_path'
+ DEBUG [502c5bdc] 	
+ DEBUG [502c5bdc] 	  /home/jacky/.rvm/gems/ruby-2.3.3/gems/bundler-1.14.3/lib/bundler/rubygems_integration.rb:433:in `block in replace_bin_path'
+ DEBUG [502c5bdc] 	
+ DEBUG [502c5bdc] 	  /home/jacky/.rvm/rubies/ruby-2.3.3/bin/rake:22:in `<top (required)>'
+ DEBUG [502c5bdc] 	

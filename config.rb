@@ -20,7 +20,8 @@ page '/*.txt', layout: false
 
 # Reload the browser automatically whenever files change
 configure :development do
-  activate :livereload
+  activate :livereload, host: '127.0.0.1', livereload_css_target: nil
+  activate :sprockets
 end
 
 ###
@@ -33,6 +34,19 @@ end
 #     "Helping"
 #   end
 # end
+
+activate :deploy do |deploy|
+  deploy.deploy_method        = :rsync
+  deploy.host          = 'jacky@annahaowedding.com'
+  deploy.path          = '/var/www/annahaowedding'
+  deploy.user          = 'jacky'
+  deploy.build_before  = true
+  # Optional Settings
+  # deploy.user  = 'tvaughan' # no default
+  # deploy.port  = 5309 # ssh port, default: 22
+  # deploy.clean = true # remove orphaned files on remote host, default: false
+  # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
+end
 
 # Build-specific configuration
 configure :build do

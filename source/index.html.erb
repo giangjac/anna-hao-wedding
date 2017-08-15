@@ -2,26 +2,51 @@
 title: Anna & Hao's Wedding
 ---
 
-<div class="welcome">
+<div id="home" class="welcome">
   <nav class="menu">
-    <div class="logo">
+    <!-- <div class="logo">
       <%= image_tag "anna_and_hao_logo.svg" %>
-    </div>
+    </div> -->
     <ul>
-      <li>RSVP</li>
-      <li>Our Story</li>
-      <li>Registry</li>
-      <li>Travel</li>
+      <li>
+        <a href="#home" class="arctic_scroll" data-position="0">
+          Home
+        </a>
+      <li>
+        <a href="#our_wedding" class="arctic_scroll" data-offset="-120">
+          Our Wedding
+        </a>
+      </li>
+      <li>
+        <a href="#our_story" class="arctic_scroll" data-offset="-70">
+          Our Story
+        </a>
+      </li>
+      <li>
+        <a href="#photos" class="arctic_scroll" data-offset="-70">
+          Photos
+        </a>
+      </li>
+      <li>
+        <a href="#rsvp" class="arctic_scroll" data-offset="-70">
+          RSVP
+        </a>
+      </li>
+      <li>
+        <a href="#registry" class="arctic_scroll" data-offset="-70">
+          Registry
+        </a>
+      </li>
     </ul>
-    <div class="wedding_date">
-      <%= image_tag "wedding_date.svg" %>
-    </div>
   </nav>
   <div class="landing">
-    <%= image_tag "anna_and_hao_landing.png" %>
+    <%= image_tag "anna_and_hao_landing.jpg" %>
+    <div class="wedding_date">
+      11.11.17
+    </div>
   </div>
   <div class="save_the_date">
-    <%= image_tag "save_the_date.svg" %>
+    <%= image_tag "anna_and_hao_logo.svg" %>
   </div>
   <div class="banner">
     <div class="component_01">
@@ -31,9 +56,72 @@ title: Anna & Hao's Wedding
       <%= image_tag "flora_02.png" %>
     </div>
   </div>
-  <div class="our_story">
+  <div id="our_wedding" class="venue">
+    <h1>Our Wedding</h1>
+    <a class="header_link" href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Kim%20Luong%20Wedding%5EDTWDN%60KLWKLWA%60138.00%60USD%60false%604%6011/10/17%6011/12/17%6010/19/17&app=resvlink&stop_mobi=yes" target="_blank">
+      <p>
+        Ceremony and Reception will be held at <br>
+        the Baronette Renaissance Hotel <br>
+        27790 Novi Road <br>
+        Novi, MI 48377 <br>
+        11.11.17 at 5:00 p.m.
+      </p>
+    </a>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2941.8851299734297!2d-83.47728498453945!3d42.49399467917807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824af1020049ddb%3A0xba0c7e6a4360beff!2s27790+Novi+Rd%2C+Novi%2C+MI+48377!5e0!3m2!1sen!2sus!4v1487910834480" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="accommodations">
+      <h2>Accommodations</h2>
+      <ul>
+        <li>
+          Use <a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Kim%20Luong%20Wedding%5EDTWDN%60KLWKLWA%60138.00%60USD%60false%604%6011/10/17%6011/12/17%6010/19/17&app=resvlink&stop_mobi=yes" target="_blank">this link</a> or call 1-800-468-3571 and ask about the Kim Luong wedding room rates.
+        </li>
+        <li>
+          Standard room of $138.00. Hotel room rates are subject to applicable state and local taxes (currently 9.5%) in effect at the time of check-out.
+        </li>
+        <li>
+          Hotel reservations for group rate must be made on or before Thursday, October 19, 2017.
+        </li>
+        <li>
+          Check in is 3:00 p.m and check out is noon.
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="our_story" class="our_story">
+    <h1>Our Story</h1>
     <p>
-      Anna and Hao met at Michigan State University. They were both lone wolves destined to be with each other in the very end. This is too cute, I can’t even take it. I’m literally about to vomit because of how cute this is. Keep it in the bedroom, am I right? Anywho, they love each other very much. I’m actually unsure how they met. I hope my brother can type out something to fill this content box. I can’t believe they’re getting married.
+      Anna &amp; Hao met on the green and white campus of Michigan State University their freshman year through a mutual friend. They would often see each other in biology, BS110. It just so happens they would start working together at the same sushi restaurant. In their early undergraduate days, they were very much different people. Anna was very dedicated to her studies and focused on her pre-med track, whereas Hao, at that time, was focused more on music and socializing with newfound friends. Although the two became friends through day and day encounters through class and work, the initial spark of romance did not ignite until after they graduated from undergrad. Anna continued her education in a Physician Assistant program at Western Michigan University and Hao eventually went to Michigan State College of Osteopathic medicine to become a doctor. The two had actually lost contact for some time. It was at a mutual friend’s wedding where the two reconnected. At the wedding, Anna had hurt her neck and Hao offered his skills and osteopathic medicine. Anna was skeptical at first, but when her pain dissolved, Anna and Hao were able to dance the night away.
     </p>
   </div>
+  <div id="photos" class="photos">
+    <h1>Photos</h1>
+    <%= image_tag "photos/anna_hao_01.jpg" %>
+    <%= image_tag "photos/anna_hao_02.jpg" %>
+    <%= image_tag "photos/anna_hao_03.jpg" %>
+    <%= image_tag "photos/anna_hao_04.jpg" %>
+    <%= image_tag "photos/anna_hao_05.jpg" %>
+    <%= image_tag "photos/anna_hao_06.jpg" %>
+    <%= image_tag "photos/anna_hao_07.jpg" %>
+    <%= image_tag "photos/anna_hao_08.jpg" %>
+  </div>
+  <div id="rsvp" class="rsvp">
+    <h1>RSVP</h1>
+    <p>We are looking forward to having you at our wedding!</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSea7UdoKsul_CtXx9ZZ1Ulml63grne0QtXrcvQbufyOy_lYZA/viewform?usp=sf_link" target="_blank">
+      <button class="rsvp_button">Click here to RSVP</button>
+    </a>
+  </div>
+  <div id="registry" class="registry">
+    <h1>Registry</h1>
+    <p>We are registered at the following gift registries:</p>
+    <div class="registry_wrapper">
+      <a href="https://registry.theknot.com/anna-kim-hao-luong-november-2017-oh/15206507" target="_blank">
+        <%= image_tag "registry/the_knot_logo.png" %>
+      </a>
+      <a href="https://www.macys.com/wgl/registry/guest/6727004?LinkshareID=p2ClxyRrqWQ-rxT7NmPVIZneDG7lPFY3PQ&PartnerID=LINKSHARE&cm_mmc=LINKSHARE-_-5-_-63-_-MP563" target="_blank">
+        <%= image_tag "registry/macys_logo.png" %>
+      </a>
+    </div>
+  </div>
 </div><!-- .welcome -->
+<div class="footer">
+</div>

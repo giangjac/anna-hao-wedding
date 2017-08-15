@@ -11,19 +11,11 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 # Middleman Gems
 gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
+gem 'middleman-sprockets'
 
 # Styling and frontend
 gem 'bitters'
 gem 'bourbon'
 gem 'neat'
 
-
-group :development do
-    gem 'capistrano',         require: false
-    gem 'capistrano-rvm',     require: false
-    gem 'capistrano-rails',   require: false
-    gem 'capistrano-bundler', require: false
-    gem 'capistrano3-puma',   require: false
-end
-
-gem 'puma'
+gem 'middleman-deploy', github: 'middleman-contrib/middleman-deploy', branch: 'master'
