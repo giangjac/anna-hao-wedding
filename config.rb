@@ -17,11 +17,11 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
+activate :sprockets
 
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload, host: '127.0.0.1', livereload_css_target: nil
-  activate :sprockets
 end
 
 ###
@@ -50,6 +50,13 @@ end
 
 # Build-specific configuration
 configure :build do
+  activate :favicon_maker, :icons => {
+    "_favicon_template.png" => [
+      { icon: "apple-touch-icon-152x152-precomposed.png" },
+      { icon: "apple-touch-icon-114x114-precomposed.png" },
+      { icon: "apple-touch-icon-72x72-precomposed.png" },
+    ]
+  }
   # Minify CSS on build
   # activate :minify_css
 
