@@ -281,6 +281,10 @@ body {
           border-width: 3px;
         }
       }
+
+      .normalize {
+        @include padding(50px 25px);
+      }
     }
 
     @include media($mobile) {
